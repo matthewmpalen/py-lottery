@@ -1,0 +1,3 @@
+# py-lottery
+
+Mania
