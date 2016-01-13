@@ -42,8 +42,8 @@ def get_prize(white_balls, powerball):
 
 def main():
     expected_value = JACKPOT_PROB * JACKPOT
-    print('Current EV: {0}, Play: {1}'.format(expected_value, 
-        expected_value > 0))
+    print('Current EV: {0:.2f}, Ticket: ${1}, Play: {2}'.format(expected_value, 
+        TICKET_COST, expected_value - TICKET_COST > 0))
     prize = 0
     ticket_count = 0
 
